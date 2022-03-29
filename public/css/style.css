@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.containerNovo {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #dcd9fa;
+}
+header {
+    top: 0;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    background-color: #130123;
+    height: 100px;
+    border-bottom: 4px solid #666;;
+}
+.navbar img {
+    width: 110px;
+    height: 150px;
+    z-index: 1;
+}
+.navbar h3 {
+    color: #FFF;
+    margin-top: 70px;
+}
+
+.area {
+    background: url('../img/icon.png') no-repeat;
+    margin-top: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 40px;
+    color: #130123;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px #26395338;
+    width: 400px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+.mediaEscola {
+    background: url('../img/escola.jpg') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediaCurso {
+    background: url('../img/cursos.png') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediaTurnos {
+    background: url('../img/turnos.jpg') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediaImagens {
+    background: url('../img/imgs.jpg') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediaAtividades {
+    background: url('../img/atividades.jpg') center/cover;
+    height: 280px;
+    width: 100%;
+}
+.mediaFixas {
+    background: url('../img/fixa.jpg') center/cover;
+    height: 280px;
+    width: 100%;
+}
+.mediaCategoria {
+    background: url('../img/categoria.png') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.mediaInscricao {
+    width: 100%;
+    height: 300px;
+    background: url('../img/inscricao.png') center/cover;
+}
+.mediaVagas {
+    background: url('../img/vagas.jpg') center/cover;
+    height: 300px;
+    width: 100%;
+}
+.topCard {
+    padding: 20px;
+    padding-top: 6px;
+}
+h2.title {
+    margin-bottom: 10px;
+}
+.bottomCard {
+    padding: 20px;
+}
+.actionsCard {
+    margin-top: 20px;
+}
+.card a {
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.card a i {
+    margin-left: 10px;
+}
+.create {
+    background-color: rgb(28, 104, 28);
+}
+.edit {
+    background-color: rgb(202, 202, 31);
+}
+.delete {
+    background-color: rgb(196, 41, 41);
+}
+.create:hover {
+    background-color: green;
+    color: #130123;
+}
+.edit:hover {
+    background-color: yellow;
+    color: #130123;
+}
+.delete:hover {
+    background-color: red;
+    color: #130123;
+}
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+.divider1 {
+    position: absolute;
+    margin-left: 100px;
+}
+.divider2 {
+    margin-left: 480px;
+    margin-top: 0;
+}
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #13012385;
+    color: #FFF;
+    padding: 10px 15px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hide {
+    display: none;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #606060;
+    padding: 5px 10px;
+    border-left: 4px solid #130123;
+    font-size: 24px;
+}
+.atualiza-select {
+    margin-top: 20px;
+}
+#atualiza-btn {
+    margin-top: 60px;
+}
+input, select {
+    padding: 5px 10px;
+    width: 300px;
+    border: 1px solid #130123;
+}
+input:focus-visible {
+    outline: none;
+}
+#status-title {
+    font-size: 23px;
+    border-left: 4px solid #130123;
+    margin-bottom: 15px;
+    padding-left: 5px;
+}
+.chekbox-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.chekbox-container span, .chekbox-container input {
+    width: auto;
+}
+.chekbox-container label {
+    margin-bottom: 0;
+    color: #606060;
+    padding: 0;
+    border-left: none;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.chekbox-container span {
+    margin-left: 6px;
+    font-weight: bold;
+}
+.btn {
+    background-color: #130123;
+    border: 2px solid #130123;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 520;
+    cursor: pointer;
+    transition: .5s;
+    width: 305px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover {
+    background-color: transparent;
+    color: #130123;
+}
+
+.page-footer {
+    width: 100%;
+    max-height: 200px;
+    background-color: #130123;
+    padding: 3rem;
+    border-top: 4px solid #666;
+    margin-top: 20px;
+    color: #FFF;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.title h5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title p {
+    font-size: 17px;
+    font-weight: 200;
+}
+.text-lateral h5 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.text-lateral li {
+    list-style: none;
+    margin-left: 10px;
+}
+.text-lateral a {
+    text-decoration: none;
+    color: #666;
+    font-size: 17.3px;
+}
+.text-lateral span {
+    margin-left: 5px;
+}
+.text-lateral a:hover, .link-esquerdo:hover {
+    color: #DDD;
+}
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(55, 55, 55, 0.10);
+    color:rgba(255, 255, 255, 0.8);
+}
+.link-esquerdo {
+    text-decoration: none;
+    color: #666;
+    font-size: 14px;
+    margin-left: 100px;
+}
